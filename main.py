@@ -55,3 +55,14 @@ def div(a: int | float, b: int | float) -> int | float:
         ZeroDivisionError: Если число b является 0
     """
     return a / b
+
+def exp(a: int | float, b: int | float) -> int | float:
+    """
+    Возводит число в степень
+    Args:
+        a (int|float): Первое число
+        b (int | float): Второе число
+    Returns:
+        out (int|float): Итоговое число
+    """
+    return a ** b
